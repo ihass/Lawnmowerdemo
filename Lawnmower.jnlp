@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Lawnmower.jnlp">
+  <information>
+    <title>Lawnmower</title>
+    <vendor>ihassiko-a</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Lawnmower.jar" size="50312" download="eager" />
+    <jar href="lib/commons-lang3-3.3.1.jar" size="437455" download="eager" />
+    <jar href="lib/guava-16.0.1.jar" size="2381199" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Lawnmower" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.mowitnow.lawnmower.view.Lawnmower"  name="Lawnmower" />
+  <update check="always"/>
+</jnlp>
